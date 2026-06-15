@@ -51,7 +51,7 @@ const sendEmail = async (to, subject, text,html) => {
 };
 
 module.exports = {
-    sendEmail
+   
 };
 
 async function sendRegistrationEmail(userEmail, name) {
@@ -62,5 +62,5 @@ async function sendRegistrationEmail(userEmail, name) {
 }
 
 module.exports = {
-    sendRegistrationEmail
+   sendEmail,  sendRegistrationEmail
 }
